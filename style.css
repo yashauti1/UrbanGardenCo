@@ -409,4 +409,132 @@ footer {
     transform: translatex(-100%);
    }
 }
+/* For tablets and small laptops (max-width: 768px) */
+@media (max-width: 768px) {
+
+    #nav {
+        padding: 0 20px;
+        gap: 10px;
+        height: 100px;
+    }
+
+    #nav h4 {
+        font-size: 18px;
+    }
+
+    #page1 h1 {
+        font-size: 70px;
+    }
+
+    #page1 h2 {
+        font-size: 24px;
+    }
+
+    #page1 p {
+        width: 80%;
+    }
+
+    #scroller h4 {
+        font-size: 60px;
+    }
+
+    #aboutus {
+        flex-direction: column;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    #aboutus img {
+        width: 180px;
+        height: 180px;
+    }
+
+    #aboutusin h3 {
+        font-size: 36px;
+    }
+
+    #aboutusin {
+        font-size: 18px;
+    }
+
+    #cards-container {
+        flex-direction: column;
+        gap: 40px;
+        padding: 0 20px;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    #greendiv {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #page3 p {
+        font-size: 30px;
+        width: 80%;
+    }
+
+    #page4 h1 {
+        font-size: 70px;
+    }
+
+    footer .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-left, .footer-right {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* For mobile phones (max-width: 480px) */
+@media (max-width: 480px) {
+
+    #nav {
+        padding: 0 10px;
+    }
+
+    #page1 h1 {
+        font-size: 50px;
+    }
+
+    #page1 p {
+        width: 90%;
+    }
+
+    #scroller h4 {
+        font-size: 50px;
+    }
+
+    #aboutus img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    #page3 p {
+        font-size: 24px;
+    }
+
+    #page4 h1 {
+        font-size: 60px;
+    }
+
+    .footer-left h3, .footer-right h4 {
+        font-size: 18px;
+    }
+
+    footer .footer-bottom {
+        font-size: 14px;
+    }
+}
 
